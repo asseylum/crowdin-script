@@ -19,6 +19,8 @@ async function main() {
 
   console.log("Updating local files...");
   zip.extractAllTo(localesDir + "/", true);
+  console.log("Files have been updated.");
+  process.exit();
 }
 
 try {
